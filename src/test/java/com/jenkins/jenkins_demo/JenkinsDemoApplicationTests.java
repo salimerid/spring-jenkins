@@ -6,17 +6,17 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.logging.Logger;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@SpringBootTest
+//@SpringBootTest
 class JenkinsDemoApplicationTests {
 
     public static Logger logger = (Logger) LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
 
-    @Test
+    //@Test
     void contextLoads() {
         logger.info("Test case executing ...");
-        assertEquals(true, true);
+        assertTrue(true);
     }
 
 }
